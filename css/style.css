@@ -1,0 +1,216 @@
+@import url(font-awesome.min.css);
+@font-face {
+  font-family: 'SignikaBold';
+  src: url("../fonts/Signika/Signika-Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SignikaRegular';
+  src: url("../fonts/Signika/Signika-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Barlow', sans-serif;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  font-size: 11px;
+  color: #2d2a2b;
+  display: block;
+}
+
+img {
+  border: none;
+}
+
+html {
+  height: 100%;
+}
+
+div, a, p, h2 {
+  box-sizing: border-box;
+}
+
+.template-head, .template-top, .template-middle, .template-bottom, footer {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: #fff;
+}
+.template-head .container, .template-top .container, .template-middle .container, .template-bottom .container, footer .container, .template-top .join-cont, .template-middle .devices-cont, .template-bottom .inform-cont, .template-bottom .inform-cont .widget, .template-head footer .rights, footer .template-head .rights, footer .rights {
+  margin: 0 auto;
+  max-width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.template-head .container .logo, .template-top .container .logo, .template-middle .container .logo, .template-bottom .container .logo, footer .container .logo, .template-top .join-cont .logo, .template-middle .devices-cont .logo, .template-bottom .inform-cont .logo, .template-head footer .rights .logo, footer .template-head .rights .logo, .template-top footer .rights .logo, footer .template-top .rights .logo, .template-middle footer .rights .logo, footer .template-middle .rights .logo, .template-bottom footer .rights .logo, footer .template-bottom .rights .logo, footer .rights .logo {
+  width: 125px;
+  height: 20px;
+}
+.template-head .container .navbar, .template-top .container .navbar, .template-middle .container .navbar, .template-bottom .container .navbar, footer .container .navbar, .template-top .join-cont .navbar, .template-middle .devices-cont .navbar, .template-bottom .inform-cont .navbar, .template-head footer .rights .navbar, footer .template-head .rights .navbar, .template-top footer .rights .navbar, footer .template-top .rights .navbar, .template-middle footer .rights .navbar, footer .template-middle .rights .navbar, .template-bottom footer .rights .navbar, footer .template-bottom .rights .navbar, footer .rights .navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 9px 0 20px;
+}
+.template-head .container .navbar ul, .template-top .container .navbar ul, .template-middle .container .navbar ul, .template-bottom .container .navbar ul, footer .container .navbar ul, .template-top .join-cont .navbar ul, .template-middle .devices-cont .navbar ul, .template-bottom .inform-cont .navbar ul, .template-head footer .rights .navbar ul, footer .template-head .rights .navbar ul, .template-top footer .rights .navbar ul, footer .template-top .rights .navbar ul, .template-middle footer .rights .navbar ul, footer .template-middle .rights .navbar ul, .template-bottom footer .rights .navbar ul, footer .template-bottom .rights .navbar ul, footer .rights .navbar ul {
+  display: flex;
+  list-style: none;
+  margin-bottom: 30px;
+}
+.template-head .container .navbar ul li, .template-top .container .navbar ul li, .template-middle .container .navbar ul li, .template-bottom .container .navbar ul li, footer .container .navbar ul li, .template-top .join-cont .navbar ul li, .template-middle .devices-cont .navbar ul li, .template-bottom .inform-cont .navbar ul li, .template-head footer .rights .navbar ul li, footer .template-head .rights .navbar ul li, .template-top footer .rights .navbar ul li, footer .template-top .rights .navbar ul li, .template-middle footer .rights .navbar ul li, footer .template-middle .rights .navbar ul li, .template-bottom footer .rights .navbar ul li, footer .template-bottom .rights .navbar ul li, footer .rights .navbar ul li {
+  margin-right: 25px;
+}
+.template-head .container .navbar ul li a, .template-top .container .navbar ul li a, .template-middle .container .navbar ul li a, .template-bottom .container .navbar ul li a, footer .container .navbar ul li a, .template-top .join-cont .navbar ul li a, .template-middle .devices-cont .navbar ul li a, .template-bottom .inform-cont .navbar ul li a, .template-head footer .rights .navbar ul li a, footer .template-head .rights .navbar ul li a, .template-top footer .rights .navbar ul li a, footer .template-top .rights .navbar ul li a, .template-middle footer .rights .navbar ul li a, footer .template-middle .rights .navbar ul li a, .template-bottom footer .rights .navbar ul li a, footer .template-bottom .rights .navbar ul li a, footer .rights .navbar ul li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #538c8a;
+  font-size: 14px;
+  font-family: 'SignikaBold';
+}
+.template-head .container .navbar ul li:last-child, .template-top .container .navbar ul li:last-child, .template-middle .container .navbar ul li:last-child, .template-bottom .container .navbar ul li:last-child, footer .container .navbar ul li:last-child, .template-top .join-cont .navbar ul li:last-child, .template-middle .devices-cont .navbar ul li:last-child, .template-bottom .inform-cont .navbar ul li:last-child, .template-head footer .rights .navbar ul li:last-child, footer .template-head .rights .navbar ul li:last-child, .template-top footer .rights .navbar ul li:last-child, footer .template-top .rights .navbar ul li:last-child, .template-middle footer .rights .navbar ul li:last-child, footer .template-middle .rights .navbar ul li:last-child, .template-bottom footer .rights .navbar ul li:last-child, footer .template-bottom .rights .navbar ul li:last-child, footer .rights .navbar ul li:last-child {
+  margin-right: 0;
+}
+.template-head .container .navbar p, .template-top .container .navbar p, .template-middle .container .navbar p, .template-bottom .container .navbar p, footer .container .navbar p, .template-top .join-cont .navbar p, .template-middle .devices-cont .navbar p, .template-bottom .inform-cont .navbar p, .template-head footer .rights .navbar p, footer .template-head .rights .navbar p, .template-top footer .rights .navbar p, footer .template-top .rights .navbar p, .template-middle footer .rights .navbar p, footer .template-middle .rights .navbar p, .template-bottom footer .rights .navbar p, footer .template-bottom .rights .navbar p, footer .rights .navbar p {
+  color: #538c8a;
+  font-size: 16px;
+  font-family: 'SignikaBold';
+}
+
+.template-top {
+  background-color: #e69a68;
+}
+.template-top .join-cont {
+  background-color: #e69a68;
+  justify-content: start;
+}
+.template-top .join-cont .slogan-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 550px;
+}
+.template-top .join-cont .slogan-bar p {
+  font-size: 33px;
+  font-family: 'SignikaRegular';
+  color: #fff;
+}
+.template-top .join-cont .join-button {
+  display: block;
+  margin-left: 47px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+  width: 143px;
+  height: 125px;
+  padding: 10px 0;
+  background-color: #d66114;
+  color: #fff;
+  font-size: 45px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'SignikaRegular';
+}
+
+.template-middle {
+  background-color: #d68854;
+}
+.template-middle .devices-cont {
+  background-color: #d68854;
+  padding-bottom: 25px;
+  flex-direction: column;
+  align-items: center;
+}
+.template-middle .devices-cont .devices {
+  width: 510px;
+}
+.template-middle .devices-cont .text {
+  text-align: center;
+  color: #fff;
+  font-family: 'SignikaBold';
+  font-size: 20px;
+}
+
+.template-bottom {
+  background-color: #fff;
+}
+.template-bottom .inform-cont {
+  background-color: #fff;
+  padding-top: 23px;
+  flex-direction: column;
+  align-items: start;
+}
+.template-bottom .inform-cont h2 {
+  font-size: 30px;
+  font-family: 'SignikaBold';
+  color: #236462;
+  margin-bottom: 40px;
+}
+.template-bottom .inform-cont hr {
+  display: inline-block;
+  width: 225px;
+  height: 4px;
+  border: none;
+  background-color: #236462;
+  margin-bottom: 27px;
+}
+.template-bottom .inform-cont .widget {
+  background-color: #fff;
+  flex-direction: row;
+  justify-content: start;
+}
+.template-bottom .inform-cont .left-col {
+  width: 478px;
+}
+.template-bottom .inform-cont .right-col {
+  width: 478px;
+}
+
+footer {
+  background-color: #549492;
+}
+footer .rights {
+  background-color: #549492;
+  padding-top: 47px;
+  padding-bottom: 41px;
+  align-items: start;
+}
+footer .rights .copyright {
+  color: #fff;
+  font-size: 12px;
+  font-family: 'SignikaBold';
+  margin-right: 100px;
+}
+footer .rights .service {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  list-style: none;
+}
+footer .rights .service li {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-right: 1px solid #fff;
+  color: #fff;
+  font-size: 15px;
+  font-family: 'SignikaBold';
+}
+footer .rights .service li:last-child {
+  border-right: none;
+}
+
+/*# sourceMappingURL=style1.css.map */
